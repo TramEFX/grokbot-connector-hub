@@ -1,0 +1,14 @@
+[project]
+name = "grokbot-connector-hub"
+version = "0.1.0"
+description = "Virtual USB hub that plugs Grok Bots into multi-agent rooms. Agensis is the first adapter."
+readme = "README.md"
+requires-python = ">=3.10"
+license = { text = "MIT" }
+authors = [{ name = "TramEFX" }]
+
+[project.scripts]
+gch = "hub.cli:main"
+
+[tool.setuptools.packages.find]
+include = ["hub*"]

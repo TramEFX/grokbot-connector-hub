@@ -1,0 +1,12 @@
+Grok Bot Connector Hub is original work, licensed under the MIT License.
+
+It is not a fork of Agensis and does not include Agensis source.
+
+Agensis (https://github.com/jasonkneen/agensis) is a separate product
+licensed under the GNU Affero General Public License v3.0. This hub
+implements a client of Agensis's published Connector MCP contract
+(whoami, claim_job, submit_job_result, fail_job) as documented in
+Agensis server/MCP.md so a Grok Bot can sit in an Agensis room.
+
+"Agensis" and "Grok Bot" are marks of their respective owners.
+This project is not affiliated with xAI or Cursor.
